@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFE2E5"
-    tools:context=".MainActivity">
+    tools:context=".Inscription">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -63,57 +63,71 @@
                     android:textColor="#9A1F31"
                     android:textSize="34sp" />
 
-
-                <TextView
-                    android:id="@+id/txtuserexit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:textColor="#9A1F31" />
-
                 <EditText
-                    android:id="@+id/txtuser"
+                    android:id="@+id/firstname"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@drawable/inputstyle"
                     android:ems="10"
-                    android:hint="Nom d'utilisateur"
+                    android:hint="First Name"
                     android:inputType="textPersonName"
                     android:paddingLeft="20dp"
                     android:textColor="#969696" />
 
-
-                <TextView
-                    android:id="@+id/txterroruser"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:textColor="#9A1F31" />
-
                 <EditText
-                    android:id="@+id/txtpwd"
+                    android:id="@+id/lastname"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@drawable/inputstyle"
                     android:ems="10"
-                    android:hint="***********"
+                    android:hint="Last Name"
                     android:inputType="textPersonName"
                     android:paddingLeft="20dp"
                     android:textColor="#969696" />
 
-                <TextView
-                    android:id="@+id/txterrorpwd"
+                <EditText
+                    android:id="@+id/username"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:textColor="#9A1F31" />
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/inputstyle"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:textColor="#969696" />
+
+                <EditText
+                    android:id="@+id/cin"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/inputstyle"
+                    android:ems="10"
+                    android:hint="CIN"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:textColor="#969696" />
+
+                <EditText
+                    android:id="@+id/pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/inputstyle"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:textColor="#969696" />
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
                     android:orientation="horizontal">
 
                     <androidx.appcompat.widget.AppCompatButton
